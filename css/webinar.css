@@ -1,0 +1,94 @@
+/* HERO RIGHT IMAGE start */
+
+.hero {
+  height: 90vh;
+}
+
+.heroLeft {
+  padding: 0px 50px;
+}
+
+.heroLeft h1 {
+  font-size: 50px;
+  line-height: 65px;
+}
+
+.heroLeft p {
+  padding: 10px 25px 20px 0 !important;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.contents {
+  position: relative;
+  background-image: url(../Images/image1.png), url(../Images/backDots.png);
+  background-position: right 7% center, left 32% top 21% !important;
+}
+/* HERO RIGHT IMAGE end */
+
+.reviewSec {
+  height: 120vh !important;
+}
+.bottomCards {
+  margin-top: 40px;
+}
+
+/* REASONS start */
+
+.reasonSec{
+    height: 90vh;
+}
+.reasonHead {
+  font-size: 50px;
+  line-height: 65px;
+  margin: 0px 500px 50px 500px;
+}
+main .headLine {
+  font-size: 20px;
+  line-height: 30px;
+  
+}
+main .textLine {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 100px 15px 100px;
+  text-align: justify;
+}
+
+main .fa-circle-check {
+  margin-left: 65px;
+  width: 23.33px;
+}
+.reasons{
+    margin-bottom: 80px;
+}
+.boxAC{
+    padding-left: 150px;
+}
+.boxBD{
+    padding-right: 150px;
+}
+.reserveBtn{
+    margin-top: -20px;
+}
+
+/* REASONS end */
+
+/* ICONS start */
+
+.icons{
+    height: 90vh;
+}
+.greenIcons{
+    color: var(--primaryColor);
+    width: 50px;
+    height: 55px;
+}
+
+.icons .midLine{
+    padding: 15px;
+}
+.icons .textLine{
+    margin-top: -15px;
+}
+/* ICONS end */

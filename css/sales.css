@@ -1,0 +1,135 @@
+/* HERO RIGHT IMAGE start */
+
+.hero {
+  height: 90vh;
+}
+
+.heroLeft {
+  padding: 0px 50px;
+}
+
+.heroLeft h1 {
+  font-size: 50px;
+  line-height: 65px;
+}
+
+.heroLeft p {
+  padding: 10px 25px 20px 0 !important;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.contents {
+  position: relative;
+  background-image: url(../Images/image2.png), url(../Images/backDots.png);
+  background-position: right 15.5% center, left 32% top 22% !important;
+}
+/* HERO RIGHT IMAGE end */
+
+/* COACHING start */
+.coachingSection {
+  height: 90vh;
+}
+
+.coachHead {
+  font-size: 35px;
+  line-height: 52px;
+  padding: 40px 450px 0px 450px;
+}
+
+.coachText {
+  font-size: 16px;
+  line-height: 26px;
+  padding: 5px 450px 10px 450px;
+}
+
+.coachCards {
+  overflow: visible;
+  width: 100%;
+}
+
+.cardStyle {
+  box-shadow: 0px 10px 25px rgba(0, 0, 51, 0.08);
+  border-radius: 20px;
+}
+
+.ring {
+  width: 65.1px;
+  height: 53px;
+  margin: 40px 0 10px 31px;
+  display: block;
+}
+
+.cardTitle {
+  font-size: 20px;
+  line-height: 30px;
+  padding: 15px 31px;
+}
+
+.cardBody {
+  padding: 0px 31px;
+  font-size: 13px;
+  line-height: 26px;
+  color: var(--contextColor) !important;
+}
+
+.cardBtn {
+  margin: 20px 31px 40px 31px;
+}
+/* COACHING end */
+
+/* ISSUES start */
+
+.issueSec {
+  height: 90vh;
+}
+.texts .headLine {
+  font-size: 50px;
+  line-height: 65px;
+  margin: 0px 300px;
+}
+.texts .textLine {
+  font-size: 16px;
+  line-height: 26px;
+  margin: 20px 0 30px 0;
+}
+.points .textLine {
+  margin-left: -60px;
+}
+.points {
+  margin: 10px 0;
+}
+/* ISSUES end */
+
+/* HERO section Start */
+
+.founderIntro {
+  height: 90vh;
+}
+
+.introRight {
+  background-image: url(../Images/image1.png), url(../Images/backDots.png);
+  height: 100%;
+  background-position: right center, left 31.5% top 10% !important;
+}
+
+.introHead {
+  font-size: 50px;
+  line-height: 65px;
+  padding-right: 80px;
+}
+/* HERO section End */
+
+/* REVIEW start */
+
+.reviewSec {
+  height: 120vh !important;
+}
+.bottomCards {
+  margin-top: 40px;
+}
+/* REVIEW end */
+
+.resultHead {
+  margin: 0 450px !important;
+}

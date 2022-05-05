@@ -1,0 +1,33 @@
+.contactForm {
+  height: 90vh;
+}
+.contactPara {
+  margin-left: 550px;
+  margin-right: 550px;
+  text-align: center;
+}
+.contactBtn {
+  width: 550px;
+}
+.h-60 {
+  height: 60%;
+}
+.contactDetails {
+  height: 45vh;
+}
+.textPrimary {
+  color: var(--primaryColor);
+}
+.content {
+  margin: 0px 30px;
+  padding-left: 30px;
+}
+.content .head-line {
+  display: block;
+  font-size: 25px;
+  line-height: 38px;
+}
+.content .text-line {
+  font-size: 14px;
+  line-height: 20px;
+}

@@ -1,0 +1,290 @@
+.hero {
+  height: 90vh;
+}
+
+.heroLeft,
+.rightService {
+  padding: 0px 50px;
+}
+
+.heroLeft h1 {
+  font-size: 50px;
+  line-height: 65px;
+}
+
+.heroLeft p {
+  padding: 10px 0 20px 0;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.contents {
+  position: relative;
+  background-image: url(../Images/image1.png), url(../Images/backDots.png);
+}
+
+.progress {
+  width: 100px;
+  height: 100px !important;
+  line-height: 100px;
+  background: none;
+  margin: 20px;
+  box-shadow: none;
+  position: relative;
+}
+
+.progress:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 12px solid #fff;
+}
+
+.progress > span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.progress .progress-left {
+  left: 0;
+}
+
+.progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 12px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+}
+
+.progress .progress-left .progress-bar {
+  left: 100%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+
+.progress .progress-right {
+  right: 0;
+}
+
+.progress .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+  animation: loading-1 1.8s linear forwards;
+}
+
+.progress .progress-value {
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background: transparent;
+  font-size: 24px;
+  color: var(--headingColor);
+  line-height: 85px;
+  text-align: center;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.progress.blue .progress-bar {
+  border-color: rgba(2, 152, 55, 0.7);
+}
+
+.progress.blue .progress-left .progress-bar {
+  animation: loading-2 1.5s linear forwards 1.8s;
+}
+
+@keyframes loading-1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes loading-2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(144deg);
+    transform: rotate(144deg);
+  }
+}
+
+@keyframes loading-3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+}
+
+.success {
+  font-size: 40px;
+  line-height: 42px;
+}
+
+.offerSection {
+  height: 90vh;
+}
+
+.leftImage {
+  background-image: url(../Images/image2.png), url(../Images/backDots.png);
+}
+
+.coaching {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  color: var(--contextColor);
+  display: inline-block;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.offer {
+  font-size: 25px;
+  line-height: 38px;
+}
+
+.cards {
+  background-color: var(--white);
+  box-shadow: 0px 10px 25px hsla(141, 97%, 29%, 0.175);
+  border-radius: 17.6667px;
+  width: 41%;
+  position: absolute;
+  left: 115px;
+  bottom: 105px;
+}
+
+/* COACHING start */
+.coachingSection {
+  height: 90vh;
+}
+
+.coachHead {
+  font-size: 35px;
+  line-height: 52px;
+  padding: 40px 450px 0px 450px;
+}
+
+.coachText {
+  font-size: 16px;
+  line-height: 26px;
+  padding: 5px 450px 10px 450px;
+}
+
+.coachCards {
+  overflow: visible;
+  width: 100%;
+}
+
+.cardStyle {
+  box-shadow: 0px 10px 25px rgba(0, 0, 51, 0.08);
+  border-radius: 20px;
+}
+
+.ring {
+  width: 65.1px;
+  height: 53px;
+  margin: 40px 0 10px 31px;
+  display: block;
+}
+
+.cardTitle {
+  font-size: 20px;
+  line-height: 30px;
+  padding: 15px 31px;
+}
+
+.cardBody {
+  padding: 0px 31px;
+  font-size: 13px;
+  line-height: 26px;
+  color: var(--contextColor) !important;
+}
+
+.cardBtn {
+  margin: 20px 31px 40px 31px;
+}
+/* COACHING end */
+
+.reviewSec {
+  height: 90vh;
+  background-color: var(--secondaryColor);
+  background-image: url(../Images/dots.png), url(../Images/dots.png);
+  background-position: right -4px top -8px, left bottom;
+  background-repeat: no-repeat;
+}
+
+.say {
+  font-size: 35px;
+  line-height: 52px;
+}
+
+.right p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 40px;
+  color: var(--primaryColor);
+}
+
+.name,
+.country {
+  font-size: 13px;
+  line-height: 10px;
+  margin-left: 50px;
+  display: block;
+  margin-top: 10px;
+}
+
+.cardContent {
+  padding: 50px 30px 30px 40px;
+}
+
+.review {
+  font-size: 13px;
+  line-height: 26px;
+  margin-top: 15px;
+}
+
+.reviewHead {
+  margin: 100px 0px;
+  padding: 0 550px;
+}
+
+.reviewCard {
+  margin-top: 100px;
+}
+
+.say {
+  text-align: center;
+}

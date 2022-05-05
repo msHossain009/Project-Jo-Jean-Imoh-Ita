@@ -1,0 +1,36 @@
+/* FOUNDERintro section Start */
+
+.founderIntro {
+  height: 90vh;
+}
+
+.introRight {
+  background-image: url(../Images/image1.png), url(../Images/backDots.png);
+  height: 100%;
+  background-position: right center, left 40.5% top 22% !important;
+}
+
+.introHead {
+  font-size: 50px;
+  line-height: 65px;
+}
+/* FOUNDERintro section End */
+
+/* APPOINTMENT Start */
+
+.appointment {
+  height: 90vh;
+}
+.appointmentHead {
+  max-width: 50vw;
+  text-align: center;
+  font-size: 35px;
+  line-height: 52px;
+}
+#appointmentBtn {
+  min-width: 15vw;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+/* APPOINTMENT End */

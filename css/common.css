@@ -1,0 +1,340 @@
+/* INTER */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playfair+Display:wght@400;500;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap");
+
+/* MULISH */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Mulish:wght@200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap");
+
+/* Universal CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+:root {
+  --primaryColor: #029837;
+  --primaryWithOpacity: rgba(2, 152, 55, 0.06);
+  --secondaryColor: #f7fff6;
+  --footerBG: #000033f2;
+  --inputBG: #f2f1f1;
+  --placeholder: rgba(107, 114, 128, 0.4);
+  --headingColor: #000033;
+  --contextColor: rgba(0, 0, 51, 0.95);
+  --white: #fff;
+  --black: #000;
+  --cardShadow: rgba(0, 0, 51, 0.08);
+}
+
+.container-fluid,
+.container {
+  overflow: hidden;
+}
+
+.rightBG {
+  background-position: right center, left 35% top 23%;
+  background-repeat: no-repeat;
+}
+
+.leftBG {
+  background-position: left 50px center, left 50px top 90px;
+  background-repeat: no-repeat;
+}
+
+.primaryButton {
+  padding: 10.676px 30.514px;
+  background: var(--primaryColor);
+  border-radius: 20px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--white);
+  margin: 0px 7.59777px;
+}
+.primaryButton a {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--white);
+  text-decoration: none !important;
+}
+.primaryButton:hover {
+  color: var(--white);
+}
+.primaryButton:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.secondaryButton {
+  padding: 10.676px 30.514px;
+  border: 2px solid var(--primaryColor);
+  border-radius: 20px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--primaryColor);
+  margin: 0px 7.59777px;
+}
+.secondaryButton a {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--primaryColor);
+  text-decoration: none !important;
+}
+.secondaryButton:hover {
+  color: var(--primaryColor);
+}
+.secondaryButton:focus {
+  border: 2px solid var(--primaryColor);
+  border-radius: 20px;
+  outline: none;
+  box-shadow: none;
+}
+.cardStyle {
+  margin: 0 20px;
+  box-shadow: 0px 10px 25px var(--cardShadow);
+  border-radius: 20px;
+}
+
+.fa-circle-check {
+  color: var(--primaryColor);
+  margin-right: 10px;
+}
+
+.headLine {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  color: var(--headingColor);
+  display: inline-block;
+}
+
+.textLine {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  color: var(--headingColor);
+  display: inline-block;
+}
+
+.midLine {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  color: var(--headingColor);
+  display: inline-block;
+}
+
+.footerFont {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.secondaryBG {
+  background-color: var(--secondaryColor);
+}
+
+.footerBG {
+  background-color: var(--contextColor);
+}
+
+/* NAVBAR START */
+
+nav {
+  height: 10vh;
+  box-shadow: 0 0.125rem 0.25rem var(--primaryWithOpacity);
+}
+.navbar-nav li {
+  padding-left: 35px;
+}
+.navbar-nav .nav-link {
+  color: var(--headingColor);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+}
+.navbar-nav .nav-link:visited, .navbar-nav .nav-link:hover, .focused {
+  font-weight: 500;
+  font-size: 14.5px;
+  border-bottom: 3px solid var(--headingColor);
+}
+/* NAVBAR END */
+
+/* FOOTER START */
+
+.footerSec {
+  height: 45vh;
+}
+.logoSec address {
+  color: #fff;
+  margin-left: 280px;
+  margin-top: 20px;
+}
+.logoSec .logo {
+  margin-left: 280px;
+}
+.link-light {
+  display: inline-block;
+  margin-top: 20px;
+}
+.link-light ul li {
+  padding: 20px 0px;
+}
+.link-light ul li a {
+  text-decoration: none;
+}
+.socialSec p {
+  font-size: 16px;
+  line-height: 24px;
+}
+.socialLinks {
+  gap: 35px;
+}
+.h-90 {
+  height: 90%;
+}
+.copyright {
+  font-weight: 300 !important;
+  opacity: 0.7;
+  font-size: 14px;
+  line-height: 24px;
+}
+/* FOOTER END */
+
+/* SUBSCRIBE section Start */
+
+.newsletter {
+  height: 45vh;
+}
+
+.newsHeadLine {
+  font-size: 35px;
+  line-height: 52px;
+  display: block;
+}
+
+.newsTextLine {
+  font-size: 16px;
+  line-height: 26px;
+  padding: 0px 550px;
+}
+
+#email,
+#text,
+#note {
+  background-color: #f2f1f1;
+  border-radius: 22.6667px;
+  width: 550px;
+  min-height: 50px;
+  padding: 0px 30px;
+  line-height: 30px;
+}
+
+#email::placeholder,
+#text::placeholder,
+#note::placeholder {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: rgba(107, 114, 128, 0.4);
+  padding: 10px 10px;
+}
+/* SUBSCRIBE section END */
+
+/* APPOINTMENT Start */
+
+.appointment {
+  height: 60vh;
+}
+.appointmentHead {
+  max-width: 50vw;
+  text-align: center;
+  font-size: 35px;
+  line-height: 52px;
+}
+#appointmentBtn {
+  min-width: 15vw;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+/* APPOINTMENT End */
+
+/* REVIEW start */
+
+.reviewSec {
+  height: 90vh;
+  background-color: var(--secondaryColor);
+  background-image: url(../Images/dots.png), url(../Images/dots.png);
+  background-position: right -4px top -8px, left bottom;
+  background-repeat: no-repeat;
+}
+
+.say {
+  font-size: 35px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.right p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 40px;
+  color: var(--primaryColor);
+}
+
+.name,
+.country {
+  font-size: 13px;
+  line-height: 10px;
+  margin-left: 50px;
+  display: block;
+  margin-top: 10px;
+}
+
+.cardContent {
+  padding: 50px 30px 30px 40px;
+}
+
+.review {
+  font-size: 13px;
+  line-height: 26px;
+  margin-top: 15px;
+}
+
+.reviewHead {
+  margin: 100px 0px;
+  padding: 0 550px;
+}
+
+.reviewCard {
+  margin-top: 100px;
+  overflow: visible;
+}
+
+.cardStyle {
+  background-color: var(--white);
+}
+/* REVIEW end */
